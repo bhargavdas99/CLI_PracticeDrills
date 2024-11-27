@@ -1,9 +1,9 @@
 ## 1.Download the book from the link.
 1. `curl -O https://raw.githubusercontent.com/bobdeng/owlreader/master/ERead/assets/books/ Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt`
-    ("curl" command helps us to download the content from the link and saves it into a file in our local system)
+    - `curl -O` command helps us to download the content and save it in our system with the same name with which it appears in the server.
 
 2. `mv Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt HarryPotter.txt`
-   (rename the book to a shorter and readable name)
+    - rename the book to a shorter and readable name
 
 ----------------------------------------------------------------------------
 ## 2.Print the first three lines in the book
