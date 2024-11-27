@@ -1,4 +1,4 @@
-#PIPES
+# PIPES
 ## 1.Download the book from the link.
 1. `curl -O https://raw.githubusercontent.com/bobdeng/owlreader/master/ERead/assets/books/ Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt`
     - `curl -O` command helps us to download the content and save it in our system with the same name with which it appears in the server.
@@ -57,9 +57,10 @@ Ans:
 - `uniq` command filters out all the duplicates but it relies on **sorted** input. 
 - Then `wc -w` counts the unique words present in the book.
 
-
+-----------------------------------------------------------------------------
 
 # PROCESSES AND PORTS
+
 ## List your browser's process ids (pid) and parent process ids(ppid)
 `ps -ef | grep firefox | awk '{print $2, $3, $8}'`
 - `ps -ef` generates the process list with all columns.
