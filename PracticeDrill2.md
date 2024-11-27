@@ -24,7 +24,7 @@ Ans: `tail -n 10 HarryPotter.txt`
 - Dumbledore
         
 Ans:
-1. "grep -o" helps us to search every occurence of the word
+1. "grep -o" helps us to search every matching occurence of the word
 2. Then we use pipe "|" command to filter the output of one command to another command
 3. "wc -w" command takes the output of "grep" and prints out the count of occurences.
 
@@ -49,11 +49,12 @@ Here, `sed -n` command helps us to print out the specified lines from the file.
 -----------------------------------------------------------------------------
 ## 6.How many unique words are present in the book?
 Ans:
-195646 unique words
+195587 unique words
 
-`cat HarryPotter.txt | uniq | wc -w`
+`sort HarryPotter.txt | uniq | wc -w`
 
-`uniq` command filters out all the duplicates and then `wc` counts the unique words present in the book
+- `uniq` command filters out all the duplicates but it relies on **sorted** input. 
+- Then `wc -w` counts the unique words present in the book.
 
 
 
