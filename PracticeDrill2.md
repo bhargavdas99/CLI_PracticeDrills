@@ -128,3 +128,20 @@ Ans:
 
 - `lsof`: Lists open files.
 - `i :5432` Filters for processes using port 5432 (the default port for PostgreSQL).
+
+
+# MISC
+## What's your local IP address?
+`ifconfig` command helps us to know our local IP address.
+
+## Find the IP address of google.com
+`ping google.com` command helps us to know IP address of `google.com`
+
+## How to check if Internet is working using CLI?
+- `ping` command along with a known web address or IP adress can help us to know if Internet is working or not.
+- Example: `ping google.com`. If this returns some responses, Internet is working, otherwise not.
+
+## Where is the node command located? What about code?
+`which node` and `which code`
+- The which command helps us to get the exact location of node and code.
+- If it doesn't exist, it will not return anything.
